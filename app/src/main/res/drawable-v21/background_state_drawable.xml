@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This code is for the colour that appears when one of the items is clicked....It is the greyish colour that we see-->
+<!-- The other xml does the same thing but for older versions ie below API 21-->
+<!-- This is referred in our list_item.xml. The parent relative layout android:background-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#B6B6B6">
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@android:color/white">
+
+    </item>
+
+</ripple>

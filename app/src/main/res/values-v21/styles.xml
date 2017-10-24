@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the style for our animation. The animation supports is for API level 21 and above. those lower would use the default styles.xml with no animationn-->
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>
